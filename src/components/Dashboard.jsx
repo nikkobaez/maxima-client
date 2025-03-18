@@ -65,7 +65,7 @@ const Dashboard = () => {
                                 <div key={index} className="flex items-center gap-2 bg-red-500 p-5 rounded-md hover:cursor-pointer">
                                     <IoIosNotifications color="#FFFFFF" size={28} className="min-w-fit" />
                                     <p className="text-white">
-                                        Camera 1 - Detected {alert.prediction} Activity on {dayjs(alert.timestamp * 1000).format('dddd, MMMM D')} at {dayjs(alert.timestamp * 1000).format('h:mm A')}
+                                        Camera 1 - Detected {alert.prediction} Activity (Confidence: {alert.confidence}) on {dayjs(alert.timestamp * 1000).format('dddd, MMMM D')} at {dayjs(alert.timestamp * 1000).format('h:mm A')}
                                     </p>
                                 </div>
                             ))}
