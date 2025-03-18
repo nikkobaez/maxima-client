@@ -14,7 +14,7 @@ const CameraPage = () => {
                     </div>
                 ) : (
                     <img
-                        src="http://73.206.16.221:5000/video_feed"
+                        src="https://sadsdfsd.uk/video_feed"
                         alt="Raspberry Pi Camera Feed"
                         className="shadow-md border rounded-lg"
                         onError={() => setIsError(true)}
